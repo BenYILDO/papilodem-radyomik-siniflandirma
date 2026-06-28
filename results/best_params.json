@@ -1,0 +1,36 @@
+{
+  "LR": {
+    "C": 0.007335487295279463,
+    "class_weight": "balanced"
+  },
+  "SVM": {
+    "C": 1.2915629316911452,
+    "gamma": "auto",
+    "class_weight": "balanced"
+  },
+  "KNN": {
+    "n_neighbors": 19,
+    "weights": "distance",
+    "p": 1
+  },
+  "RF": {
+    "n_estimators": 150,
+    "max_depth": 12,
+    "min_samples_leaf": 1,
+    "max_features": "sqrt",
+    "class_weight": "balanced"
+  },
+  "ET": {
+    "n_estimators": 150,
+    "max_depth": 15,
+    "min_samples_leaf": 2,
+    "max_features": "sqrt",
+    "class_weight": "balanced"
+  },
+  "GB": {
+    "n_estimators": 50,
+    "learning_rate": 0.010241977302648288,
+    "max_depth": 3,
+    "subsample": 0.9957729877691279
+  }
+}

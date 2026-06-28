@@ -1,0 +1,51 @@
+{
+  "friedman": {
+    "statistic": 2.024539877300607,
+    "p_value": 0.9174278844531762
+  },
+  "wilcoxon_vs_best": {
+    "reference": "SVM",
+    "comparisons": [
+      {
+        "vs": "LR",
+        "p_raw": 1.0,
+        "p_bonferroni": 1.0
+      },
+      {
+        "vs": "RF",
+        "p_raw": 0.5,
+        "p_bonferroni": 1.0
+      },
+      {
+        "vs": "ET",
+        "p_raw": 0.75,
+        "p_bonferroni": 1.0
+      },
+      {
+        "vs": "GB",
+        "p_raw": 0.5,
+        "p_bonferroni": 1.0
+      },
+      {
+        "vs": "KNN",
+        "p_raw": 0.75,
+        "p_bonferroni": 1.0
+      },
+      {
+        "vs": "Ensemble",
+        "p_raw": 0.75,
+        "p_bonferroni": 1.0
+      }
+    ]
+  },
+  "mean_cv_macro_f1": {
+    "LR": 0.8988598417076981,
+    "SVM": 0.9194818337186622,
+    "RF": 0.9014963532716401,
+    "ET": 0.9067567933879704,
+    "GB": 0.888463803623719,
+    "KNN": 0.9042263520661731,
+    "Ensemble": 0.9010703379880437
+  },
+  "best_model": "SVM"
+}

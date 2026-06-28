@@ -1,0 +1,18 @@
+{
+  "n_samples": 966,
+  "n_raw_features": 746,
+  "n_features_after_preprocess": 234,
+  "n_selected_features": 30,
+  "n_train": 770,
+  "n_test": 196,
+  "n_patients_total": 69,
+  "n_patients_train": 55,
+  "n_patients_test": 14,
+  "n_trials": 50,
+  "best_model_cv": "SVM",
+  "best_model_test_by_macro_f1": "GB",
+  "test_class_balance": {
+    "Normal": 168,
+    "Papilodem": 28
+  }
+}
